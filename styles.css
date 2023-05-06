@@ -99,16 +99,23 @@ form > div#buttons > button#submit {
 form > div#buttons > button#submit:hover{ 
     border-radius: 0rem;
     transition: 1s;
+    cursor: pointer;
 }
 
 form > div#buttons > span > button#login {
     background: none;
     border: none;
-    color:#596D48;
-
+    color:#596D48;  
+ 
 }
 
-form > div#buttons > span 
+form > div#buttons > span > button#login:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+form > div#buttons > span,  
 form > div#buttons > span > button#login{
     font-size: 15px;
 }
