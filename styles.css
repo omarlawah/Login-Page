@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+section {
+    height: 100vh;
+}
+
+section.box1>div.logo{
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    align-items: center;
+}
+
+section.box1>span {
+    font-size: 2rem;
+ 
+}
+
+section.box1{
+    width: 45%;
+    background-image: url(photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;   
+}
+
+section.box2{
+    background-color: aqua;
+    width:55%;
+}
