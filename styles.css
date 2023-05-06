@@ -76,7 +76,8 @@ form > fieldset > div.inputs1 > p{
     font-weight: 700;
 } 
 
-form > fieldset > div.inputs2{
+form > fieldset > div.inputs2,
+form > div {
     margin-left: 2rem;
 }
 
@@ -84,3 +85,42 @@ form > fieldset > div > label {
     font-size: 0.5rem;
 }
 
+form > div#buttons > button#submit {
+    margin-top: 1.3rem;
+    background-color: #596D48;
+    border:none;
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 2.5rem;
+    color: white;
+    transition: 1s;
+}
+
+form > div#buttons > button#submit:hover{ 
+    border-radius: 0rem;
+    transition: 1s;
+}
+
+form > div#buttons > span > button#login {
+    background: none;
+    border: none;
+    color:#596D48;
+
+}
+
+form > div#buttons > span 
+form > div#buttons > span > button#login{
+    font-size: 15px;
+}
+
+form > fieldset > div > input {
+    border-color:#E5E7EB;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+}
+
+form > fieldset > div > input:focus {
+    border-color:rgb(24, 24, 184);
+    box-shadow: 1px 1px 1px rgba(24, 24, 184, 50%);
+}

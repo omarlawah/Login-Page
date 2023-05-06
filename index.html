@@ -30,7 +30,7 @@
                         <label for="email">EMAIL</label><br/>
                         <input type="email" id="email"><br/><br/>
                         <label for="password">PASSWORD</label><br/>
-                        <input type="password" id="password" class="error" required><br/><br/>
+                        <input type="password" minlength="6" id="password" class="error" required>
                     </div>
                     <div class="inputs2">
                         <br/><br/>
@@ -38,10 +38,14 @@
                         <input type="text" id="lname"><br/><br/>
                         <label for="tel">PHONE NUMBER</label><br/>
                         <input type="tel" id="tel"><br/><br/>
-                        <label for="password">CONFIRM PASSWORD</label><br/>
-                        <input type="password" id="password" class="error" required><br/><br/>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label><br/>
+                        <input type="password" id="confirmPassword" class="error" required>
                     </div>
                 </fieldset>
+            <div id="buttons">
+                <button type="submit" id="submit">Create Account</button><br/><br/>
+                <span>Already have an account? <button id="login">Login</button></span>
+            </div>
             </form>
         </section>
     </main>
